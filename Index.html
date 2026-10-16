@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <title>Student Special Case Master Tracker</title>
+    <style>
+      html, body { margin: 0; padding: 0; background: #FAF7F2; }
+      #boot { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #8F7872; padding: 48px; text-align: center; font-size: 14px; }
+    </style>
+
+    <!-- Libraries (pinned versions) -->
+    <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+    <script>window.react = window.React; /* lucide-react UMD looks for a lowercase "react" global */</script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide-react@0.460.0/dist/umd/lucide-react.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.26.4/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"><div id="boot">Loading Master Tracker…</div></div>
+
+    <!-- The whole React app (editable source) lives in App.html -->
+    <?!= include('App'); ?>
+  </body>
+</html>
